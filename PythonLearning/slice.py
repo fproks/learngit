@@ -1,6 +1,15 @@
+'''
+切片是python的一种常见操作
+可以对list，tuple ，以及类似与tuple 的字符串进行切片
+'''
 L=list(range(100))
 print(L[:10])#输出前10个
 print(L[:10:2]) #输出前10个，每两个输出一个
+print(L[10:15])#输出10-14个
+print(L[::5])  #所有数，每5个取1个
+'''
+也可以倒序切片 L[-10:-1] 输出后10个
+'''
 name = ['Adam','Alex','Amy','Bob','Boom','Candy','Chris','David','Jason','Jasonstatham','Bill']
 i_name = input("please input name : ").title()
 wname = []
