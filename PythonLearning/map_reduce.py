@@ -35,3 +35,6 @@ def normal(L):
 
 p=list(map(normal,c))
 print(reduce(num,p)/(pow(10, len(c)-c.find('.')-1)))
+cp=[x for x in c if x!='.']
+cpl=''.join(cp)
+print(cpl)
